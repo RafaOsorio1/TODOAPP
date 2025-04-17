@@ -1,0 +1,6 @@
+.espacio {
+  height: 35px;
+  width: 240px;
+  border-radius: 6px;
+  border: 0.5px solid rgb(153, 150, 150);
+}
