@@ -6,15 +6,31 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <h1>Todo App</h1>
-    <input class="espacio" type="text" placeholder="Agrega tu nueva tarea" />
-
-    <section>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-    </section>
+  <body class="fondo">
+    <!-- Este es el encabezado de la página -->
+    <!-- Aquí se encuentra el título de la aplicación -->
+    <header class="header">
+      <h1>Todo App</h1>
+    </header>
+    <main class="main">
+      <!-- Este Section es la sección para agregar una nueva tarea aqui encontramos el input y el botón -->
+      <section class="section-add">
+        <input
+          class="espacio"
+          type="text"
+          placeholder="Agrega tu nueva tarea"
+        />
+        <button class="boton">+</button>
+      </section>
+      <!-- Estas serán las tareas pendientes -->
+      <section>
+        <ul>
+          <li>Create a javascript file to add reactivity to this web</li>
+          <li>Improve the styles for the task(looks very ugly)</li>
+          <li>Say hello</li>
+          <li>Another thing</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
